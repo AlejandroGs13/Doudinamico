@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:screenOrientation="portrait"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#7986cb"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cain.alejandro.doudinamico.Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Responde la pregunta correctamente para seguir!"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/et1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="20dp"
+        android:text="¿Cuales de los siguiente snombres pertenecen a grandes piratas?"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pre1"/>
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:textColor="#ffffff"
+        android:layout_height="60dp"
+        android:text="Anne bony"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pre1"
+        android:id="@+id/check1"/>
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:textColor="#ffffff"
+        android:layout_height="60dp"
+        android:text="Carmelita del desierto"
+        android:layout_below="@id/check1"
+        android:id="@+id/check2"/>
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:textColor="#ffffff"
+        android:layout_height="60dp"
+        android:text="edward teach"
+        android:layout_below="@id/check2"
+        android:id="@+id/check3"/>
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:textColor="#ffffff"
+        android:layout_height="60dp"
+        android:text="Juanita la guapa"
+        android:layout_below="@id/pre1"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/check1"
+        android:id="@+id/check4"/>
+
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Bumbleby"
+        android:textColor="#ffffff"
+        android:layout_below="@id/check4"
+        android:layout_toRightOf="@id/check1"
+        android:id="@+id/check5"/>
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Jack Rackham"
+        android:textColor="#ffffff"
+        android:layout_below="@id/check5"
+        android:layout_toRightOf="@id/check1"
+        android:id="@+id/check6"/>
+
+    <Button
+        android:layout_below="@+id/check6"
+        android:textColor="#ffffff"
+        android:background="#546e7a"
+        android:text="Enviar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:id="@+id/boton1"/>
+
+</RelativeLayout>

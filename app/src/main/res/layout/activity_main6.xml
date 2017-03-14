@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:background="#7986cb"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="portrait"
+    tools:context="cain.alejandro.doudinamico.Main6Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Encuentra las diferencias!"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:id="@+id/et1"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/et1"
+        android:id="@+id/imagen1"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ocho"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Click en la imagen expandir"
+        android:layout_below="@+id/imagen1"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:id="@+id/et3"
+        android:textSize="12dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/caja1"
+        android:background="#546e7a"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#546e7a"
+        android:layout_below="@id/caja1"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar"
+        android:id="@+id/boton1"/>
+
+</RelativeLayout>
